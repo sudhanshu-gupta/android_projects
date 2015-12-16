@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android_projects/ToDoList/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="06aa830eabbb5025ceb56aca95a03832ce1ce370">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/ToDoList/app/build/intermediates/pre-dexed/debug/classes_ad2b6d0303adefb055c722bc07a0a907c42e7c49.jar" />
+    </item>
+
+</items>

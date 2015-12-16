@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_cf82958fa87b3f747e1f2d6765591a3247679d82.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_317c8fbda9d7c6621ec12f4774663c87da803286.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_95c14f86cc7d512995e3c64b1c2ed6ac25a8a98f.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_c815c99ace7f1871faacdf5d1a043824d16d93c3.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3ad4bb9731d6fda63fb9cc5dcd91ecc9ca5a927d">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/pre-dexed/debug/classes_5aa469fc7834c8bc36157eb41a36429e64b0b2c4.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cb31e0d41265cf25c3b2513d900b33d4a7bbd26e">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/MyBrowser/app/build/intermediates/pre-dexed/debug/instant-run_799c4bd03c5d7a279f2894088021fe3f903f264c.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryInfoApp/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="487c7c4c20195e2494153a5ff990e55cd8aa346e">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryInfoApp/app/build/intermediates/pre-dexed/debug/classes_e0e0c7596471647bb3c1d88d8c59bf0e900ecbc9.jar" />
+    </item>
+
+</items>

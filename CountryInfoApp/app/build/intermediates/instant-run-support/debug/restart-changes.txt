@@ -1,0 +1,3 @@
+/Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryInfoApp/app/build/intermediates/transforms/instantRun/debug/folders/1/1/main/com/amigo/countryinfoapp/AddCountryFragment.class
+/Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryInfoApp/app/build/intermediates/transforms/instantRun/debug/folders/1/1/main/com/amigo/countryinfoapp/AddCountryFragment$2.class
+/Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryInfoApp/app/build/intermediates/transforms/instantRun/debug/folders/1/1/main/com/amigo/countryinfoapp/MainActivity.class

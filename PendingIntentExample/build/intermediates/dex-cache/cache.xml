@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android_projects/PendingIntentExample/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="79ba17db744065dc280b49ec1090241af03f14e6">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/PendingIntentExample/app/build/intermediates/pre-dexed/debug/classes_329905045ec3b6f8c658037db3be9a79319e549d.jar" />
+    </item>
+
+</items>
