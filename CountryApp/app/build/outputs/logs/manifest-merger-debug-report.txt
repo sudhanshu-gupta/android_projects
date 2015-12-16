@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
 		ADDED from /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/src/main/AndroidManifest.xml
@@ -42,6 +42,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/src/main/AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/src/main/AndroidManifest.xml:15:27-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/src/main/AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/src/main/AndroidManifest.xml:19:22-64
 uses-sdk
 INJECTED from /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43

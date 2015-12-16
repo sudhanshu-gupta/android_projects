@@ -11,6 +11,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -43,6 +44,25 @@ public class CountryListFragment extends Fragment{
         // Inflate the layout for this fragment
         View fragView = inflater.inflate(R.layout.fragment_country_list, container, false);
         countryListTextView = (ListView) fragView.findViewById(R.id.listView);
+        countryListTextView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String countryName = countries.get(position);
+
+                WikiFragment wf = new WikiFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("COUNTRY_NAME", countryName);
+                wf.setArguments(bundle);
+
+                FragmentManager manager = getFragmentManager();
+                FragmentTransaction transaction = manager.beginTransaction();
+                transaction.remove(CountryListFragment.this);
+                transaction.add(R.id.mainLayout, wf, "WF");
+                transaction.addToBackStack(null);
+                transaction.commit();
+            }
+        });
 
         countryAdapter = new CountryAdapter(getActivity(), countries);
 
@@ -68,6 +88,7 @@ public class CountryListFragment extends Fragment{
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         countries = new ArrayList<>();
+        countryAdapter = new CountryAdapter(getActivity(), countries);
     }
 
     private void updateUI() {
