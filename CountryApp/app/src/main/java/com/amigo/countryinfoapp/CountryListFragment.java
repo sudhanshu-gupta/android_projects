@@ -9,6 +9,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -41,6 +44,7 @@ public class CountryListFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         setRetainInstance(true);
+        setHasOptionsMenu(true);
         // Inflate the layout for this fragment
         View fragView = inflater.inflate(R.layout.fragment_country_list, container, false);
         countryListTextView = (ListView) fragView.findViewById(R.id.listView);
@@ -48,19 +52,12 @@ public class CountryListFragment extends Fragment{
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String countryName = countries.get(position);
 
-                WikiFragment wf = new WikiFragment();
-                Bundle bundle = new Bundle();
-                bundle.putString("COUNTRY_NAME", countryName);
-                wf.setArguments(bundle);
-
-                FragmentManager manager = getFragmentManager();
-                FragmentTransaction transaction = manager.beginTransaction();
-                transaction.remove(CountryListFragment.this);
-                transaction.add(R.id.mainLayout, wf, "WF");
-                transaction.addToBackStack(null);
-                transaction.commit();
+                //Get the intent for Details Activity and set the arguments
+                Intent intent = new Intent(getActivity(), DetailsActivity.class);
+                intent.putStringArrayListExtra("COUNTRIES", countries);
+                intent.putExtra("SELECTED_POSITION", position);
+                startActivity(intent);
             }
         });
 
@@ -109,5 +106,21 @@ public class CountryListFragment extends Fragment{
                 countries.add(data.getStringExtra("COUNTRY_NAME"));
             }
         }
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.countrylist_menu, menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.addAction) {
+            if(delegate != null) {
+                delegate.switchToAddCountry();
+            }
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

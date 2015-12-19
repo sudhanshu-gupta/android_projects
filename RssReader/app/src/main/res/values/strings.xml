@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RssReader</string>
+    <string name="content_description" >Application require permission to access feed data</string>
+</resources>
