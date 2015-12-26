@@ -2,11 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryInfoApp/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="487c7c4c20195e2494153a5ff990e55cd8aa346e">
-        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryInfoApp/app/build/intermediates/pre-dexed/debug/classes_e0e0c7596471647bb3c1d88d8c59bf0e900ecbc9.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_556e8c8dca13d41659aa0c33e093b69d5896f701.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7f171450f4de3a8436dccce563f1906d071bab96">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/pre-dexed/debug/classes_f44ce53b160eeeba5127ea28b976b0e7cdc2d462.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dac22b39aa523e6b804456242750fa21b23c5bb4">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/pre-dexed/debug/instant-run_4fa928a439ed595f29e3b837b8aebeb99a2b04fd.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_e9735b68f3197d22190f11373c417d56cdd56c97.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_d8958a390f9884145ca93590f72832251ab71227.jar" />
+    </item>
+    <item
+        jar="/Users/sudhanshu.gupta/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryInfoApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_c815c99ace7f1871faacdf5d1a043824d16d93c3.jar" />
     </item>
 
 </items>

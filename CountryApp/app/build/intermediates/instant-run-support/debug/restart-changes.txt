@@ -1,2 +1,1 @@
-/Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/build/intermediates/transforms/instantRun/debug/folders/1/1/main/com/amigo/countryinfoapp/WikiFragment.class
-/Users/sudhanshu.gupta/Documents/workspace/android_projects/CountryApp/app/build/intermediates/transforms/instantRun/debug/folders/1/1/main/com/amigo/countryinfoapp/WikiFragment$1.class
+/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryApp/app/build/intermediates/transforms/instantRun/debug/folders/1/1/main/com/amigo/countryinfoapp/MainActivity.class

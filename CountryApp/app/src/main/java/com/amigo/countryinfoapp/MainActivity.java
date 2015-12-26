@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements AddCountryDelegat
             CountryListFragment fragment = (CountryListFragment) manager.findFragmentByTag("CLF");
             fragment.setDelegate(this);
         }
+
     }
 
     private void loadCountryListFragment() {

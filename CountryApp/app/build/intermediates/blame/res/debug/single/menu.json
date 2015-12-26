@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryApp/app/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryApp/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryApp/app/build/intermediates/res/merged/debug/menu/countrylist_menu.xml",
+        "source": "/Users/sudhanshu.gupta/Documents/workspace/android/android_projects/CountryApp/app/src/main/res/menu/countrylist_menu.xml"
+    }
+]
